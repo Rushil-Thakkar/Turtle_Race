@@ -8,7 +8,7 @@
 
 - In the terminal, Go up to the folder directory.
 ```
-python practice.py
+    python practice.py
 
 ```
 
@@ -26,14 +26,14 @@ python practice.py
 - Four turtles will be drwan after the tracks and they will be assigned with the speed ranging from 1 to 5 randomly.
 
 ```
-for turn in range(100):
-    t1.forward(randint(1, 5))
-    t2.forward(randint(1, 5))
-    t3.forward(randint(1, 5))
-    t4.forward(randint(1, 5))
+    for turn in range(100):
+        t1.forward(randint(1, 5))
+        t2.forward(randint(1, 5))
+        t3.forward(randint(1, 5))
+        t4.forward(randint(1, 5))
 ```
 
 - At the end,a message box will pop up with showing the result of the race.
 ```
-messagebox.showinfo("RESULT OF THE MATCH ", " X TURTLE WINS")
+    messagebox.showinfo("RESULT OF THE MATCH ", " X TURTLE WINS")
 ```
